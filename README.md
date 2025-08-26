@@ -41,11 +41,11 @@ Run the feature extraction script to compute:
 ## 🛠️ Tech Stack
 - **Python 3.12.10**
 - **Libraries**:
-  - `librosa` → audio feature extraction
-  - `numpy, pandas` → data processing
-  - `scikit-learn` → preprocessing, evaluation
-  - `tensorflow / keras` → BiGRU implementation
-  - `matplotlib, seaborn` → visualization
+  - `librosa` → audio feature extraction.
+  - `numpy, pandas` → data processing.
+  - `scikit-learn` → preprocessing, evaluation.
+  - `tensorflow / keras` → BiGRU implementation.
+  - `matplotlib, seaborn` → visualization.
 
 ---
 
@@ -67,15 +67,19 @@ It merges:
    ```bash
    git clone https://github.com/sSomaVignesh/Speech-Emotion-Recognition.git
    cd speech-emotion-recognition
+   
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+
 3. **Prepare dataset**
    ```bash
    unzip AVV_dataset.zip -d dataset/
+
 4. **Extract features**
    ```bash
    python feature_extraction.py
+
 5. **Train the model**
    ```bash
    python train_bigru.py
