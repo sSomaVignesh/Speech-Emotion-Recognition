@@ -64,26 +64,26 @@ It merges:
 
 ## 🖥️ How to Run
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/sSomaVignesh/Speech-Emotion-Recognition.git
    cd speech-emotion-recognition
-   
+```   
 2. **Install dependencies**
-   ```bash
+```bash
    pip install -r requirements.txt
-
+```
 3. **Prepare dataset**
-   ```bash
+```bash
    unzip AVV_dataset.zip -d dataset/
-
+```
 4. **Extract features**
-   ```bash
+```bash
    python feature_extraction.py
-
+```
 5. **Train the model**
-   ```bash
+```bash
    python train_bigru.py
-
+```
 ---
 
 ## 📈 Results
